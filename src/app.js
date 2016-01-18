@@ -1,7 +1,4 @@
-'use strict';
-
-var throng = require('throng');
-
+const throng = require('throng');
 const WORKERS = process.env.WEB_CONCURRENCY || 1;
 const PORT = process.env.PORT || 3000;
 
@@ -11,9 +8,9 @@ throng(start, {
 });
 
 function start() {
-  let express = require('express');
-  let app = express();
-  let options = {
+  const express = require('express');
+  const app = express();
+  const options = {
     transformViews: true,
     doctype: "<!DOCTYPE html>"
   };

@@ -1,13 +1,12 @@
 # Meal A Week
 
-# TODO - Check out blitz (performance for application)
+TODO - Check out blitz (performance for application)
 
-### Before you begin
+### Getting Started
+
+We are currently using [throng](https://github.com/hunterloftis/throng) for our worker-manager.
 
     npm i
-
-### Start
-
     npm start
 
 ### Conventions

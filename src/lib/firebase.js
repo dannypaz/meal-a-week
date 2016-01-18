@@ -1,10 +1,14 @@
 const Firebase = require('firebase');
 
+function read() {
+  console.log('Getting some information from the database');
+};
+
+function write() {
+  console.log('Writing some information to the database');
+};
+
 module.exports = {
-  read: function() {
-    console.log('read');
-  },
-  write: function() {
-    console.log('write');
-  }
+  read: read,
+  write: write
 };

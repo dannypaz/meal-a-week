@@ -4,4 +4,4 @@ function routes(app) {
   });
 };
 
-module.exports = routes
+module.exports = routes;
