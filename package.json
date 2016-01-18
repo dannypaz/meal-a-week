@@ -4,17 +4,20 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "make start"
+    "start": "nf start"
   },
+  "repository": "https://github.com/dannypaz/meal-a-week",
   "keywords": [],
   "author": "Danny Paz <dan.pazuchowski@gmail.com> (http://www.dannypaz.com)",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.14.2",
-    "express": "^4.13.3",
-    "express-react-views": "^0.9.0",
-    "firebase": "^2.3.2",
-    "react": "^0.14.6",
-    "react-dom": "^0.14.6"
+    "body-parser": "1.14.2",
+    "express": "4.13.3",
+    "express-react-views": "0.9.0",
+    "firebase": "2.3.2",
+    "foreman": "1.4.1",
+    "react": "0.14.6",
+    "react-dom": "0.14.6",
+    "throng": "1.0.1"
   }
 }
