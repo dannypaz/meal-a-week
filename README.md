@@ -1,6 +1,8 @@
 # Meal A Week
 
 TODO - Check out blitz (performance for application)
+Using AirBnB Javascript [Best Practices](https://github.com/airbnb/javascript)... (I know that these all don't apply to node, but I decided to use that as a benchmark anyways)
+
 
 ### Getting Started
 
@@ -18,6 +20,10 @@ Use `const` for all constants, use `var` for all variables, use `let` inside fun
 PORT
 WEB_CONCURRENCY
 FIREBASE_URL
+
+### Development
+
+We are using `gulp` and `gulp-eslint`.
 
 ### Deploy steps
 

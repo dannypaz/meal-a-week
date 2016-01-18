@@ -1,7 +1,8 @@
 function routes(app) {
-  app.get('/', function(req,res){
+  function home(req, res) {
     res.render('index', {});
-  });
-};
+  }
+  app.get('/', home);
+}
 
 module.exports = routes;
