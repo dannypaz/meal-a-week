@@ -1,11 +1,10 @@
 {
-  "name": "Meal A Week",
+  "name": "Meal-A-Week",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "make start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "make start"
   },
   "keywords": [],
   "author": "Danny Paz <dan.pazuchowski@gmail.com> (http://www.dannypaz.com)",
