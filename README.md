@@ -44,3 +44,7 @@ Show dynos
 Setting ENV variables
 
     heroku config:set VAR=1
+    
+## NEXT STEPS
+
+Convert app to [nodal](http://www.nodaljs.com/)
